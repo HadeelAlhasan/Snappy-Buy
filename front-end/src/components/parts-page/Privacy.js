@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import { useEffect, useState } from "react";
 import './privacy.css'
+import { useNavigate } from "react-router-dom";
 export default function Privacy(){
     const {t,i18n}=useTranslation("Privacy")
     const isEnglish=i18n.language==="en"
@@ -11,9 +12,16 @@ export default function Privacy(){
     setVisible(true); // العنصر يظهر مع animation بعد mount الصفحة
   }, []);
     const dir=`${isEnglish?"fade-right":"fade-left"}`
+     const nav=useNavigate()
+    const goToHome=()=>{
+nav('/')
+ }
     return(<div>
         <div  className="privacy">
-                <p className={`privacy-title ${visible?"visible":""}`} data-aos={dir}> <span>🛡️</span> {t("title")}</p>
+               <div className="gotohome">
+                 <p className={`privacy-title ${visible?"visible":""}`} data-aos={dir}> <span>🛡️</span> {t("title")}</p>
+                   <button className={`${isEnglish?"bi bi-chevron-right":"bi bi-chevron-left"}`} onClick={goToHome}></button>
+               </div>
                 <div className="privacy-eternal">
                     <p className={` ${visible?"visible":""}`} data-aos={dir}>{t("dis")}</p>
                     <p data-aos={dir} className={`privacy-title1 ${visible?"visible":""}`}>1- {t("title1")}</p>

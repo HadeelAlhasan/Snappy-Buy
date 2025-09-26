@@ -22,9 +22,9 @@ export default function Footer({bold}){
        </div>
 
        <div className='list'>
-        <p><Link to={'/Privacy'} style={{fontWeight:`${bold=="Privacy"?"bold":""}`,fontSize:`${bold=="Privacy"?"20px":""}`}}>{t("Privacy")}</Link></p>
-        <p className='border1'><Link to={'/Terms'} style={{fontWeight:`${bold=="terms"?"bold":""}`,fontSize:`${bold=="terms"?"20px":""}`}}>{t("terms")}</Link></p>
-        <p><Link to={'/Questions'}>{t("Questions")}</Link></p>
+        <p><Link to={'/Privacy'} style={{fontWeight:`${bold==="Privacy"?"bold":""}`,fontSize:`${bold==="Privacy"?"20px":""}`}}>{t("Privacy")}</Link></p>
+        <p className='border1'><Link to={'/Terms'} style={{fontWeight:`${bold==="terms"?"bold":""}`,fontSize:`${bold==="terms"?"20px":""}`}}>{t("terms")}</Link></p>
+        <p><Link to={'/Questions'} style={{fontWeight:`${bold==="Questions"?"bold":""}`,fontSize:`${bold==="Questions"?"20px":""}`}}>{t("Questions")}</Link></p>
        </div>
        <div className='rights'>
         <p>{t("rights")} <span>Snappy Buy</span> &copy; 2025</p>
