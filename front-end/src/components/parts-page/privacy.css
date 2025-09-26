@@ -1,0 +1,32 @@
+.privacy{
+    padding: 40px 50px;
+    color: #333;
+
+}
+.privacy .bi-journal-text{
+    color: red;
+}
+.privacy .privacy-title{
+    font-size: 28px;
+    font-weight: bold;
+      color: #333;
+}
+.privacy .privacy-eternal{
+padding:0px 50px ;
+color: #333;
+}
+.privacy .privacy-eternal .privacy-title1{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

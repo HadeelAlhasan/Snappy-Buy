@@ -1,0 +1,30 @@
+{
+      "nav":{
+        "h":"home",
+         "g": "categore",
+         "c":"card",
+         "p":"profile",
+         "s":"search"
+    },
+    "home":{
+        "title":"Shop easily… and have everything delivered to your doorstep!",
+        "dis1":"Discover our unique products at",
+          "dis2":", add them to your cart with a simple step, and choose the payment and shipping method that suits you. Enjoy a fast, secure, and delightful shopping experience every time!"
+    },
+        "how-work":{
+        "title":"How to Shop with Us – Easy Steps:",
+        "dis1":" Choose Products: Browse our collection and add your favorites to the cart.",
+        "dis2":"Manage Your Cart: Adjust quantities, remove products, or save them for later.",
+        "dis3":"Secure Checkout: Easily and securely choose your preferred payment method.",
+        "dis4":"Fast Shipping: Select your shipping method and let us deliver your order quickly to your doorstep.",
+        "dis5":"Enjoy Your Products: Receive your order and enjoy its quality and the exceptional shopping experience."
+    },
+    "Advantages":{
+     "title":"Store Advantages:",
+     "dis1":"Hassle-Free Shopping: All our products in one place with easy browsing.",
+     "dis2":" Flexible Cart: Add, remove, or modify your products before checkout.",
+     "dis3":" Secure and Fast Payment: Multiple options available, just a few simple steps.",
+     "dis4":"Home Delivery: We deliver your order as quickly as possible, wherever you are."
+    },
+    "end":"Don't wait... Try the easiest and fastest shopping experience now!"
+}
