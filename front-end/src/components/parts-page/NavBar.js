@@ -12,7 +12,7 @@ export default function NavBar({blod}) {
                     <li><Link to='/' style={{fontWeight:blod=="home"?"bold":""}} >{t("nav.h")}</Link></li>
                     <li>{t("nav.g")}</li>
                     <li>{t("nav.c")}</li>
-                    <li>{t("nav.p")}</li>
+                    <li><Link to={'/login'}>{t("nav.p")}</Link></li>
                 </ul>
             </div>
 			<div className="nav1">

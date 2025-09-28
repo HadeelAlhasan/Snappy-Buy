@@ -12,7 +12,7 @@ i18n
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json' // ns = namespace = اسم الصفحة
     },
-    ns: ["Home","Footer","Questions","Privacy","Terms"], // أسماء الملفات
+    ns: ["Home","Footer","Questions","Privacy","Terms","Login","Account"], // أسماء الملفات
     defaultNS: "Home",
     interpolation: { escapeValue: false }
   });

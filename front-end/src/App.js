@@ -6,6 +6,8 @@ import Privacy from './components/parts-page/Privacy';
 import ScrollToTop from './components/ScrollToTop';
 import Terms from './components/parts-page/Terms'
 import Questions from './components/parts-page/Questions'
+import LogIn from './components/Account/LogIn';
+import CreateAccount from './components/Account/CreateAccount'
    function App() {
      return (
        <Router>
@@ -16,6 +18,8 @@ import Questions from './components/parts-page/Questions'
              <Route path="/Privacy" element={<Privacy/>}/>
              <Route path='/Terms' element={<Terms/>}/>
              <Route path='/Questions' element={<Questions/>}/>
+             <Route path='/login' element={<LogIn/>}/>
+             <Route path='/create' element={<CreateAccount/>}/>
            </Routes>
          </div>
        </Router>
