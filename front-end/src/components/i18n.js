@@ -9,7 +9,7 @@ i18n
     lng:sessionStorage.getItem('lang')|| "ar",
     fallbackLng: "en",
     debug: false,
-    backend: {
+    backend: { 
       loadPath: '/locales/{{lng}}/{{ns}}.json' // ns = namespace = اسم الصفحة
     },
     ns: ["Home","Footer","Questions","Privacy","Terms","Login","Account"], // أسماء الملفات

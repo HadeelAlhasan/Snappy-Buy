@@ -1,9 +1,9 @@
 {
-    "email":"Email:",
-    "name":"Name",
-    "password":"Password:",
-    "number":"Number",
-    "country":"Country" ,
-    "confirmpassword":"Confirm password",
-    "create":"create an account" 
+  "email": "Email:",
+  "name": "Name:",
+  "password": "Password:",
+  "number": "Number:",
+  "country": "Country:",
+  "confirmpassword": "Confirm password:",
+  "create": "create an account"
 }
