@@ -8,15 +8,15 @@ export default function Footer({bold}){
         <p>{t("Contact-Us")}</p>
         <div className='Contact-Us-link'>
              <a href="https://www.facebook.com/اسم_حسابك" target="_blank" aria-label="فيس بوك">
-        <i class="bi bi-facebook"></i>
+        <i className="bi bi-facebook"></i>
     </a>
 
     <a href="mailto:بريدك@مثال.com" aria-label="إيميل">
-        <i class="bi bi-envelope"></i>
+        <i className="bi bi-envelope"></i>
     </a>
 
     <a href="https://t.me/اسم_حسابك" target="_blank" aria-label="تلجرام">
-        <i class="bi bi-telegram"></i>
+        <i className="bi bi-telegram"></i>
     </a>
         </div>
        </div>

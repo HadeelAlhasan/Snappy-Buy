@@ -1,4 +1,5 @@
 .con {
+<<<<<<< Updated upstream
   padding-top: 5%;
   width: 100%;
   background-image: url("../../photo/back4.jpg");
@@ -93,4 +94,99 @@
 .login-button button:hover {
   font-weight: 800;
   transition: font-weight 0.5s ease;
+=======
+	padding-top: 5%;
+	width: 100%;
+	background-image: url("../../photo/back4.jpg");
+	background-repeat: no-repeat;
+	background-color: #000000;
+	background-size: 100% 100%;
+	height: 100vb;
+}
+.createen {
+	min-width: 34%;
+}
+.createar {
+	min-width: 28%;
+}
+.login {
+	width: 38%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	padding: 1%;
+	color: #333;
+	position: relative;
+	padding-bottom: 3%;
+	border: #33333350 1px solid;
+}
+.login .form {
+	width: 90%;
+	margin: auto;
+	margin-top: 3%;
+	padding: 7% 0%;
+}
+.login .form div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10%;
+}
+.login .form div input {
+	outline: none;
+	border: none;
+	padding-bottom: 0px;
+	border-bottom: #333 solid 1px;
+	background-color: transparent;
+}
+.login .form div input:focus {
+	padding-bottom: 1px;
+	transform: translateY(8px);
+	transition: transform 1s ease;
+}
+.login .logodiv {
+	text-align: center;
+}
+.login a .logo {
+	width: 50%;
+	height: 100px;
+	margin: auto;
+}
+.forget {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 7%;
+	color: #333;
+}
+.forget button {
+	border: none;
+	color: #333;
+
+	background-color: transparent;
+}
+.forget button:hover {
+	font-weight: 700;
+	transition: font-weight 0.5s ease;
+}
+.login-button {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.login-button button {
+	color: aliceblue;
+
+	width: 50%;
+	padding: 2% 0px;
+	border: #333 1px solid;
+	border-radius: 10px;
+	background-color: #df5c30;
+}
+.login-button button:hover {
+	font-weight: 800;
+	transition: font-weight 0.5s ease;
+>>>>>>> Stashed changes
 }

@@ -8,6 +8,7 @@ import Terms from './components/parts-page/Terms'
 import Questions from './components/parts-page/Questions'
 import LogIn from './components/Account/LogIn';
 import CreateAccount from './components/Account/CreateAccount'
+import Groups from './components/group/Groups';
    function App() {
      return (
        <Router>
@@ -20,6 +21,7 @@ import CreateAccount from './components/Account/CreateAccount'
              <Route path='/Questions' element={<Questions/>}/>
              <Route path='/login' element={<LogIn/>}/>
              <Route path='/create' element={<CreateAccount/>}/>
+             <Route path='/group' element={<Groups/>}/>
            </Routes>
          </div>
        </Router>
