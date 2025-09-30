@@ -7,16 +7,11 @@ import { useNavigate } from "react-router-dom";
 export default function LogIn() {
     const {t}=useTranslation("Login")
     const dir=sessionStorage.getItem("lang")
-    // useEffect(() => {
-    //     document.body.style.direction = dir==="ar" ? "ltr" : "ltr";
-      
-        
-    //   }, []);
+
        const navigate = useNavigate();
 
   const goToCreate = (e) => {
-  e.preventDefault()
-    // الانتقال إلى رابط إنشاء الحساب بدون معاملات
+
     navigate('/create');
   };
 
@@ -49,7 +44,7 @@ export default function LogIn() {
                 </div>
                  <div className="forget" >
                     {t("q")}
-                    <button onClick={(e)=>{goToCreate(e)}} className={`${dir==="en"?"createen":"createar"}`}>{t("create")}</button>
+                    <button type="button" onClick={(e)=>{goToCreate(e)}} className={`${dir==="en"?"createen":"createar"}`}>{t("create")}</button>
                 </div>
                 <div className="login-button">
                     <button>{t("login")}</button>

@@ -1,5 +1,5 @@
 .con {
-/* <<<<<<< Updated upstream */
+
   padding-top: 5%;
   width: 100%;
   background-image: url("../../photo/back4.jpg");
@@ -57,7 +57,7 @@
 .login a .logo {
   width: 50%;
   height: 100px;
-  /* text-align: center; */
+
   margin: auto;
 }
 .forget {
@@ -181,5 +181,5 @@
 .login-button button:hover {
 	font-weight: 800;
 	transition: font-weight 0.5s ease;
-/* >>>>>>> Stashed changes */
+
 }
