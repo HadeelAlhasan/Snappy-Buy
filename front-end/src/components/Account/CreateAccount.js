@@ -7,7 +7,7 @@ export default function CreateAccount() {
   const { t } = useTranslation("Account");
   const dir = sessionStorage.getItem("lang");
   useEffect(() => {
-    document.body.style.direction = dir === "ar" ? "ltr" : "ltr";
+    document.body.style.direction = dir === "en" ? "ltr" : "rtl";
   }, []);
   return (
     <div className="con">
@@ -20,27 +20,27 @@ export default function CreateAccount() {
               </Link>
             </div>
             <div className="form" style={{ lineHeight: "18px" }}>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("email")}</label>
                 <input type="email" />
               </div>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("name")}</label>
                 <input type="text" />
               </div>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("password")}</label>
                 <input type="password" />
               </div>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("confirmpassword")}</label>
                 <input type="password" />
               </div>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("number")}</label>
                 <input type="number" />
               </div>
-              <div style={{ direction: `${dir === "ar" ? "rtl" : "ltr"}` }}>
+              <div >
                 <label>{t("country")}</label>
                 <input type="text" />
               </div>

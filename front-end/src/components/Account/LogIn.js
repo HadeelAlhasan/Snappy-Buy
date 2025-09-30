@@ -12,10 +12,14 @@ export default function LogIn() {
       
         
     //   }, []);
-      const nav=useNavigate();
-      const goToCreate=()=>{
-       nav('/create')
-      }
+       const navigate = useNavigate();
+
+  const goToCreate = (e) => {
+  e.preventDefault()
+    // الانتقال إلى رابط إنشاء الحساب بدون معاملات
+    navigate('/create');
+  };
+
 	return (
        <div className="con">
          
@@ -45,7 +49,7 @@ export default function LogIn() {
                 </div>
                  <div className="forget" >
                     {t("q")}
-                    <button  onClick={goToCreate} className={`${dir==="ar"?"createar":"createen"}`}>{t("create")}</button>
+                    <button onClick={(e)=>{goToCreate(e)}} className={`${dir==="en"?"createen":"createar"}`}>{t("create")}</button>
                 </div>
                 <div className="login-button">
                     <button>{t("login")}</button>
