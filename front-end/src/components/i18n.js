@@ -12,7 +12,7 @@ i18n
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json", // ns = namespace = اسم الصفحة
     },
-<<<<<<< HEAD
+
     ns: [
       "Home",
       "Footer",
@@ -22,10 +22,9 @@ i18n
       "Login",
       "Account",
       "My_cart",
+      "Group",
     ], // أسماء الملفات
-=======
-    ns: ["Home","Footer","Questions","Privacy","Terms","Login","Account","Group"], // أسماء الملفات
->>>>>>> d4981274f55c8b1bc0a7bc35e6ca626774a5b7df
+
     defaultNS: "Home",
     interpolation: { escapeValue: false },
   });

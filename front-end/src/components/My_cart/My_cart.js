@@ -10,7 +10,7 @@ export default function My_cart() {
         <i className="bi bi-cart"></i>
         {t("Shopping")}
       </p>
-      <p className="title">{t("Title")}</p>
+      <p className="title2">{t("Title")}</p>
       <div className="con_cart">
         <div className="con2">
           <div className="con_empty">
