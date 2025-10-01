@@ -6,15 +6,24 @@ i18n
   .use(HttpBackend) // يسمح بتحميل ملفات JSON ديناميكيًا
   .use(initReactI18next)
   .init({
-    lng:sessionStorage.getItem('lang')|| "ar",
+    lng: sessionStorage.getItem("lang") || "ar",
     fallbackLng: "en",
     debug: false,
-    backend: { 
-      loadPath: '/locales/{{lng}}/{{ns}}.json' // ns = namespace = اسم الصفحة
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json", // ns = namespace = اسم الصفحة
     },
-    ns: ["Home","Footer","Questions","Privacy","Terms","Login","Account"], // أسماء الملفات
+    ns: [
+      "Home",
+      "Footer",
+      "Questions",
+      "Privacy",
+      "Terms",
+      "Login",
+      "Account",
+      "My_cart",
+    ], // أسماء الملفات
     defaultNS: "Home",
-    interpolation: { escapeValue: false }
+    interpolation: { escapeValue: false },
   });
 
 export default i18n;
