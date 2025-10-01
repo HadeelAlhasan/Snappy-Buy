@@ -8,6 +8,7 @@ export default function NavBar({blod}) {
     const [opt,setopt]=useState(false)
     const opacity=()=>{
     setopt(!opt)
+
     }
     const isEnglish=i18n.language==="en"
 	// const dir=`${isEnglish&&!opt?"serach-div-er":!isEnglish&&!opt?"serach-div-en":isEnglish&&opt?"serach-div-er-opt":"serach-div-en-opt"}`
@@ -23,15 +24,19 @@ export default function NavBar({blod}) {
                 </ul>
             </div>
 			<div className="nav1">
+                 <button  className="search" type="button" >
+            <i className="bi bi-grid"></i>
+            <p className="fit">{t("nav.d")}</p>
+        </button>
                 <LanSw />
-            <button  className="search" type="submit" onClick={opacity}>
+            <button  className="search" type="button" onClick={opacity}>
             <i className="bi bi-search"></i>
             <p>{t("nav.s")}</p>
         </button>
         
             </div>
 			
-			<div className={`serach-div ${opt?"open":"close"}`}><input type="search"/></div>
+			<div className={`serach-div ${opt?"open":"close"}`}><input type="search" /></div>
 		</div>
 	);
 }

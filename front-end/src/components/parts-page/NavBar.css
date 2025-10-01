@@ -27,9 +27,15 @@ align-items: center;
   height: 60px;
 
 }
+div.nav1 button{
+  width: 10%;
 
+}
+.fit{
+  width: 56px;
+}
 div.nav .ulnav{
-  width: 75%;
+  width: 71%;
 
   margin-inline-end: 7%;
 }
