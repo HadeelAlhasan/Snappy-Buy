@@ -9,6 +9,7 @@ import Questions from './components/parts-page/Questions'
 import LogIn from './components/Account/LogIn';
 import CreateAccount from './components/Account/CreateAccount'
 import Groups from './components/group/Groups';
+import Products from './components/products/Products';
    function App() {
      return (
        <Router>
@@ -22,6 +23,7 @@ import Groups from './components/group/Groups';
              <Route path='/login' element={<LogIn/>}/>
              <Route path='/create' element={<CreateAccount/>}/>
              <Route path='/group' element={<Groups/>}/>
+             <Route path='/products' element={<Products/>}/>
            </Routes>
          </div>
        </Router>

@@ -4,7 +4,8 @@
          "g": "categore",
          "c":"card",
          "p":"profile",
-         "s":"search"
+         "s":"search",
+         "d":"dashboard"
     },
     "home":{
         "title":"Shop easily… and have everything delivered to your doorstep!",
