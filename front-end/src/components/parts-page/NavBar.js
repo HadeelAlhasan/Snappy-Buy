@@ -19,7 +19,7 @@ export default function NavBar({blod}) {
                 <ul className="nav">
                     <li><Link to='/' style={{fontWeight:blod==="home"?"bold":""}} >{t("nav.h")}</Link></li>
                     <li><Link to='/group' style={{fontWeight:blod==="group"?"bold":""}} >{t("nav.g")}</Link></li>
-                    <li><Link to='/card' style={{fontWeight:blod==="card"?"bold":""}} >{t("nav.c")}</Link></li>
+                    <li><Link to='/card' style={{fontWeight:blod==="cart"?"bold":""}} >{t("nav.c")}</Link></li>
                     <li><Link to={'/login'}>{t("nav.p")}</Link></li>
                 </ul>
             </div>

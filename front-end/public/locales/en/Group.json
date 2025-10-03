@@ -1,6 +1,10 @@
 {
    "group":{ "show":"show proudects"},
    "product":{
-    "l":"l.s"
+    "l":"sp",
+    "add":"Add to cart ",
+    "name":"Group name:",
+    "price":"Price:",
+    "des":"Description:"
    }
 }

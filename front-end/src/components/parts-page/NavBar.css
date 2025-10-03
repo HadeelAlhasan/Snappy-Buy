@@ -50,8 +50,9 @@ div.nav .ulnav li{
 }
 div.nav .ulnav li a:hover{
 background-color: #df5c3050;
-padding: 3px;
-font-size: 26px;
+padding-left: 0.5px;
+padding-right: 0.5px;
+/* font-size: 26px; */
 border-radius: 10px;
 	transition: all 0.5s ease;
 }

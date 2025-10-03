@@ -3,14 +3,24 @@ import img from '../../photo/g-cloths.jpg'
 import './Product.css'
 export default function Product(){
   const {t}=useTranslation("Group")
-    return(<div className="product" data-aos="fade-up">
-        <div className='heart'><i className='bi bi-heart-fill'></i></div>
-  <img src={img} alt='no thing'/>
-
-  <p className='title'>ملاااااابسملاااااابسملاااااابس</p>
-  <hr/>
-  <div className='price'><p className='old'>119322222296{t("product.l")}</p><p>6663322222{t("product.l")}</p></div>
-  <div className='star-info'><div  className='star'><i className='bi bi-star-fill'></i><p>22222299222</p></div> <i className='bi bi-info-circle'></i></div>
- 
+    return(
+   
+    
+   <div className="group" data-aos="fade-up">
+     <div className='heart'><i className='bi bi-heart-fill'></i></div>
+     <div  className='star'><i className='bi bi-star-fill'></i><p>222299992299222</p></div>
+   <div className="center">
+                  <img src={img} alt="no thing"/>
+                  <button type='button' >{t("product.add")} </button>
+              </div>
+             <div className='col'>
+                <h2 className='title-product'>clothes</h2>
+              <div className="width-product">  
+                 <p>{t("product.name")} <span>ملابس</span></p>
+                 <p>{t("product.price")}<span className='old'>11111111111111111$</span><span >4444422222222222222222224444$</span></p>
+                 <p>{t("product.des")}<spsn>جميع المقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفة</spsn></p>
+              </div>
+             </div>
+  
     </div>)
 }

@@ -4,8 +4,8 @@ import "./My_cart.css";
 export default function My_cart() {
   const { t } = useTranslation("Cart");
   return (
-    <>
-      <NavBar />
+    <div className="scroll">
+      <NavBar blod={"cart"}/>
       <p className="cartTitle">
         <i className="bi bi-cart"></i>
         {t("Shopping")}
@@ -21,6 +21,6 @@ export default function My_cart() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
