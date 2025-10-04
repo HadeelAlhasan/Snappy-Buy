@@ -1,0 +1,13 @@
+{
+    "email": "Email:",
+  "name": "Name:",
+ 
+  "number": "Number:",
+  "country": "Country:",
+  "edit":"edit photo",
+  "Payments":"Payments",
+  "fav":"favorite",
+  "Product":"Product Name",
+  "Price":"Price",
+  "Date":"Payment Date"
+}

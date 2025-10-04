@@ -10,6 +10,7 @@ import CreateAccount from "./components/Account/CreateAccount";
 import Groups from "./components/group/Groups";
 import My_cart from "./components/My_cart/My_cart";
 import Products from "./components/products/Products";
+import Profile from "./components/Account/Profile";
 function App() {
   return (
     <Router>
@@ -20,7 +21,8 @@ function App() {
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Terms" element={<Terms />} />
           <Route path="/Questions" element={<Questions />} />
-          <Route path="/login" element={<LogIn />} />
+          {/* <Route path="/login" element={<LogIn />} /> */}
+          <Route path="/login" element={<Profile/>}/>
           <Route path="/create" element={<CreateAccount />} />
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />

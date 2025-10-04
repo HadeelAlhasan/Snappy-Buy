@@ -1,0 +1,87 @@
+
+div.info{
+ background-color: #f8f8b6;
+    border-radius: 10px;
+    border: 1px solid #333;
+    width: 70%;
+    margin:5% auto;
+    display: flex;
+    height: 80vb;
+    
+}
+div.info i.bi.bi-pencil{
+    padding: 5px;
+    margin-top: 3px;
+    margin-inline-start: 3px;
+    width: 32px;
+    text-align: center;
+border: #333 solid 1px;
+    color: #df5c30;
+   position: absolute;
+    border-radius: 50%;
+}
+div.profile-photo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div.profile-photo button{
+     background-color: #df5c30;
+    color: aliceblue;
+    padding: 1px;
+    margin-top: 1%;
+    width: 30%;
+    border: 1px solid #333;
+    outline: none;
+    border-radius: 10px;
+}
+div.profile-photo img{
+width: 70%;
+height: 50%;
+margin-bottom: 5px;
+border-radius: 10px;
+}
+div.data{
+display: flex;
+color: #333;
+justify-content: center;
+flex-direction: column;
+}
+div.fav,div.Payments{
+   width: 80%;
+    margin:5% auto; 
+}
+div.Payments{
+   width: 73%;
+    margin:5% auto; 
+}
+div.fav .hr{
+ width: 94%;
+    height: 1px;
+
+    margin: auto;
+    background-color: #333;
+}
+div.fav h2.fav,div.Payments h2.Payments{
+    text-align: center;
+    color: #df5c30;
+}
+.Payments table{
+    background-color: #f8f8b6;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    
+    border: 1px solid #333;
+    
+
+}
+.Payments table th ,.Payments table td{
+    padding: 10px;
+    text-align: center;
+     border: 1px solid #333;
+}
