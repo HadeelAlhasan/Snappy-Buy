@@ -1,7 +1,9 @@
 {
     "email": "Email:",
   "name": "Name:",
- 
+ "logout":"Log out",
+ "info":"Edit information",
+ "password":"Change password",
   "number": "Number:",
   "country": "Country:",
   "edit":"edit photo",

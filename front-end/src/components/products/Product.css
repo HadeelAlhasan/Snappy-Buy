@@ -1,12 +1,15 @@
 
-div.heart,div.star{
+div.heart{
 position: absolute;
 color: #333;
 
 padding: 2px;
 }
 
-
+div.star{
+ color: #333;
+padding: 2px;   
+}
 i.bi.bi-heart,i.bi.bi-star{
     color: #333;
 }
@@ -15,6 +18,9 @@ h2.title-product{
 }
 div.width-product{
     margin-top: 10px;
+   
+    min-height:260px ;
+  
 }
 
 
@@ -24,9 +30,12 @@ div.width-product{
 }
 div.star{
     display: flex;
+    justify-content: flex-end;
+    height: 23px;
+    /* margin-top: 60px; */
     margin-inline-start:20px ;
      margin-inline-end:20px ;
-    padding-top: 0px;
+    /* padding-top: 0px; */
 }
 
 div.star  p{

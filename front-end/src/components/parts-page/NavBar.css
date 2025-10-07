@@ -92,6 +92,7 @@ max-height:0px;
     border: none;
     width: 4%;
     height: 50px;
+    text-decoration: none;
       display: flex;
   flex-direction: column;
      background-color: transparent;

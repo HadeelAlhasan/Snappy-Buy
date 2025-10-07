@@ -8,7 +8,7 @@ export default function Product(){
     
    <div className="group" data-aos="fade-up">
      <div className='heart'><i className='bi bi-heart-fill'></i></div>
-     <div  className='star'><i className='bi bi-star-fill'></i><p>222299992299222</p></div>
+ 
    <div className="center">
                   <img src={img} alt="no thing"/>
                   <button type='button' >{t("product.add")} </button>
@@ -18,9 +18,10 @@ export default function Product(){
               <div className="width-product">  
                  <p>{t("product.name")} <span>ملابس</span></p>
                  <p>{t("product.price")}<span className='old'>11111111111111111$</span><span >4444422222222222222222224444$</span></p>
-                 <p>{t("product.des")}<spsn>جميع المقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفة</spsn></p>
+                 <p>{t("product.des")}<span>جميع المقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقمشة و الوان مختلفالمقاسات اقن مختلفة</span></p>
               </div>
+                 <div  className='star'><p>222299992299222</p><i className='bi bi-star-fill'></i></div>
              </div>
-  
+   
     </div>)
 }

@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import Product from '../products/Product'
 import img from '../../photo/profile.jpg';
 import '../Account/profile.css';
+import { Link } from 'react-router-dom';
+import logo from '../../photo/logo.png'
 import { useEffect } from 'react';
 export default function Profile(){
     const {t}=useTranslation("Profile")
@@ -15,19 +17,37 @@ export default function Profile(){
               }
     return(<div>
         <div className='info'>
-            <i className='bi bi-pencil'></i>
-           <div className='profile-photo'>
-             <img src={img}/>
-             <button className=''>{t("edit")}</button>
-           </div>
+                <Link to="/"><img className="logo" src={logo} alt="no thing"/></Link>
+            {/* <i className='bi bi-pencil'></i> */}
+           {/* <div className='profile-photo'> */}
+            
+             {/* <button className=''>{t("edit")}</button>
+           </div> */}
            <div className='data'>
+            <div><img src={img}/>
+            <div className='camera'><button className='bi bi-camera'></button></div></div>
+             
             <h2>hadeel</h2>
-            <div>
+            {/* <div> */}
                 <p>{t("email")}<span>hhhadellll@gmail.com</span></p>
             <p>{t("number")}<span>0940110940</span></p>
             <p>{t("country")}<span>حمص</span></p>
-            </div>
+            {/* </div> */}
            </div>
+        </div>
+        <div className='reset'>
+            <div className='cir-but'>
+                <div className='cir'><i className="bi bi-pencil"></i></div>
+                <button className='tex'>{t("info")}</button>
+            </div>
+            <div className='cir-but'>
+                <div className='cir'><i className="bi bi-key"></i></div>
+                <button className='tex'>{t("password")}</button>
+            </div>
+            <div className='cir-but'>
+               <div className='cir'><i className="bi bi-box-arrow-right"></i></div>
+                <button className='tex'>{t("logout")}</button>
+            </div>
         </div>
         <div className='fav'>
             <h2 className='fav'>{t("fav")}</h2>
@@ -35,12 +55,14 @@ export default function Profile(){
         </div>
         <div className='Payments'>
             <h2 className='Payments'>{t("Payments")}</h2>
-            <table>
+           <div className='table'>
+             <table>
                 <tr>
                     <th>{t("Product")}</th>
                     <th>{t("Price")}</th>
                     <th>{t("Date")}</th>
                 </tr>
+            
                 <tr>
                     <td>ملابس</td>
                     <td>100$</td>
@@ -57,6 +79,7 @@ export default function Profile(){
                     <td>2025/10/3</td>
                 </tr>
             </table>
+           </div>
         </div>
     </div>)
 }

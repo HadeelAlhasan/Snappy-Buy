@@ -24,10 +24,10 @@ export default function NavBar({blod}) {
                 </ul>
             </div>
 			<div className="nav1">
-                 <button  className="search" type="button" >
+                 <Link to="/dashboard-list"  className="search" type="button" >
             <i className="bi bi-grid"></i>
             <p className="fit">{t("nav.d")}</p>
-        </button>
+        </Link>
                 <LanSw />
             <button  className="search" type="button" onClick={opacity}>
             <i className="bi bi-search"></i>

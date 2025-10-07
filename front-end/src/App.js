@@ -11,6 +11,7 @@ import Groups from "./components/group/Groups";
 import My_cart from "./components/My_cart/My_cart";
 import Products from "./components/products/Products";
 import Profile from "./components/Account/Profile";
+import DashboardList from "./components/dashboard/DashboardList";
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/dashboard-list" element={<DashboardList/>}/>
         </Routes>
       </div>
     </Router>

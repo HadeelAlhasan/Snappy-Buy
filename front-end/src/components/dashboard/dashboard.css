@@ -1,0 +1,37 @@
+.list-icon{
+       background-color: #ddddcc;
+    width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    text-align: center;
+    /* padding-top: 2%; */
+}
+.list-icon i{
+font-size: 28px;
+    color: #df5c30;
+    font-weight: bold;
+}
+div.list-box{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+   
+    width: 90%;
+    align-items: center;
+    gap: 5%;
+}
+div.list-box div.box{
+    border: 2px solid #333;
+    min-width: 900px;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-inline-start: 10px;
+     background-color: #f8f8b6;
+}
+div.list-box div.box h5{
+    color: #df5c30;
+    
+}
