@@ -19,15 +19,15 @@ export default function NavBar({blod}) {
                 <ul className="nav">
                     <li><Link to='/' style={{fontWeight:blod==="home"?"bold":""}} >{t("nav.h")}</Link></li>
                     <li><Link to='/group' style={{fontWeight:blod==="group"?"bold":""}} >{t("nav.g")}</Link></li>
-                    <li><Link to='/card' style={{fontWeight:blod==="card"?"bold":""}} >{t("nav.c")}</Link></li>
+                    <li><Link to='/card' style={{fontWeight:blod==="cart"?"bold":""}} >{t("nav.c")}</Link></li>
                     <li><Link to={'/login'}>{t("nav.p")}</Link></li>
                 </ul>
             </div>
 			<div className="nav1">
-                 <button  className="search" type="button" >
+                 <Link to="/dashboard-list"  className="search" type="button" >
             <i className="bi bi-grid"></i>
             <p className="fit">{t("nav.d")}</p>
-        </button>
+        </Link>
                 <LanSw />
             <button  className="search" type="button" onClick={opacity}>
             <i className="bi bi-search"></i>

@@ -5,6 +5,7 @@
     display: flex;
     width: 90%;
     padding: 1%;
+    
     justify-content: space-between;
 }
  .revese div{

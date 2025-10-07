@@ -1,0 +1,164 @@
+
+div.info{
+ background-color: #f8f8b6;
+    /* border-radius: 10px; */
+    border-bottom: 1px solid #333;
+    /* width: 70%; */
+    /* margin:5% auto; */
+    display: flex;
+    padding-bottom: 10px;
+    /* justify-content: center; */
+    height: 70vb;
+    
+}
+div.info a img.logo{
+    position: absolute;
+      width: 13%;
+    height: 60px;
+}
+div.info i.bi.bi-pencil{
+    padding: 5px;
+    margin-top: 3px;
+    margin-inline-start: 3px;
+    width: 32px;
+    text-align: center;
+border: #333 solid 1px;
+    color: #df5c30;
+   position: absolute;
+    border-radius: 50%;
+}
+div.profile-photo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div.profile-photo button{
+     background-color: #df5c30;
+    color: aliceblue;
+    padding: 1px;
+    margin-top: 1%;
+    width: 30%;
+    border: 1px solid #333;
+    outline: none;
+    border-radius: 10px;
+}
+div.data img{
+width: 200px;
+height:200px;
+margin-bottom: 5px;
+border-radius: 50%;
+}
+div.data{
+display: flex;
+color: #333;
+justify-content: flex-end;
+width: 100%;
+align-items: center;
+flex-direction: column;
+}
+div.data .camera{
+/* position: relative;
+width: fit-content; */
+
+text-align: center;
+margin-top: -25px;
+margin-bottom: 10px;
+
+}
+div.data button.bi.bi-camera{
+    background-color: rgb(245, 250, 253);
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #333;
+    /* font-size: 20px;
+    padding-left: 10px; */
+    padding-top: 2px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+div.fav,div.Payments{
+   width: 90%;
+    margin:5% auto; 
+}
+div.Payments{
+   width: 73%;
+    margin:5% auto; 
+}
+div.fav .hr{
+ width: 94%;
+    height: 1px;
+
+    margin: auto;
+    background-color: #333;
+}
+div.fav h2.fav,div.Payments h2.Payments{
+    text-align: center;
+    color: #df5c30;
+}
+
+.Payments table{
+    background-color: #f8f8b6;
+    color: #333;
+    width: 100%;
+    text-align: center;
+ 
+    
+
+}
+div.table{
+border: 1px solid #333;
+border-radius: 10px;
+padding: 10px 0px;
+    background-color: #f8f8b6;
+}
+.Payments table th ,.Payments table td{
+    padding: 10px;
+    text-align: center;
+    border: none;
+        background-color: #f8f8b6;
+}
+.Payments table th{
+    border-bottom: #333 solid 1px;
+}
+div.cir{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+     padding-top: 24px;
+    text-align: center;
+     border: 2px solid #333;
+     background-color: #ddddcc;
+}
+div.cir i{
+    font-size: 28px;
+    color: #df5c30;
+    font-weight: bold;
+}
+.reset{
+    display: flex;
+   
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3% auto;
+}
+button.tex{
+    background-color: #df5c30;
+    color: aliceblue;
+    border: 1px solid #333;
+    border-radius: 10px;
+ margin-top: -15px;
+    padding: 5px;
+    display: inline-block;
+}
+.cir-but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

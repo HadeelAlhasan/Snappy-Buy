@@ -1,0 +1,12 @@
+{
+    "list":{
+        "title1":"Dashboard",
+        "des1":"Viewing statistics and changes within the site",
+          "title2":"Group Manager",
+        "des2":"Managing groups: Add a new group, delete an existing group, and edit a group.",
+          "title3":"Product Manager",
+        "des3":"Managing products: Add a new product, delete an existing product, and edit a product.",
+          "title4":"User Manager",
+        "des4":" Managing users: Delete a user, promote a user to admin, or revoke promotion."
+    }
+}
