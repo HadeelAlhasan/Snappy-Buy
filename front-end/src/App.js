@@ -10,6 +10,7 @@ import CreateAccount from "./components/Account/CreateAccount";
 import Groups from "./components/group/Groups";
 import My_cart from "./components/My_cart/My_cart";
 import Products from "./components/products/Products";
+import Cart_info from "./components/My_cart/Cart_info";
 function App() {
   return (
     <Router>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/det" element={<Cart_info />} />
         </Routes>
       </div>
     </Router>
