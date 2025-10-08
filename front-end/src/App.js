@@ -14,6 +14,10 @@ import Products from "./components/products/Products";
 import Cart_info from "./components/My_cart/Cart_info";
 import Profile from "./components/Account/Profile";
 import DashboardList from "./components/dashboard/DashboardList";
+import DashBoard from "./components/dashboard/DashBoard";
+import GroupManager from "./components/dashboard/GroupManager";
+import ProductManager from "./components/dashboard/ProductManager";
+import Users from "./components/dashboard/Users";
 function App() {
   return (
     <Router>
@@ -29,10 +33,19 @@ function App() {
           <Route path="/create" element={<CreateAccount />} />
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />
-          <Route path="/products" element={<Products />} /> 
+
+          <Route path="/products" element={<Products />} />
+
+          <Route path="/products" element={<Products />} />
+
           <Route path="/det" element={<Cart_info />} />
 
           <Route path="/dashboard-list" element={<DashboardList />} />
+          <Route path="/dashboard-list" element={<DashboardList />} />
+          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/groupsm" element={<GroupManager />} />
+          <Route path="/prductm" element={<ProductManager />} />
+          <Route path="/users" element={<Users />} />
         </Routes>
       </div>
     </Router>
