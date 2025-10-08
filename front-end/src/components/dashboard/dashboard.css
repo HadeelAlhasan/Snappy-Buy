@@ -3,9 +3,11 @@
     width: 80px;
     min-height: 80px;
     border-radius: 50%;
+    text-decoration: none;
     border: 2px solid #333;
     text-align: center;
-    /* padding-top: 2%; */
+    
+    padding-top: 15px;
 }
 .list-icon i{
 font-size: 28px;

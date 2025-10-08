@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import './dashboard.css';
 import NavBar from '../parts-page/NavBar'
+import { Link } from "react-router-dom";
 export default function DashboardList(){
      const dir = sessionStorage.getItem("lang");
       useEffect(() => {
@@ -10,9 +11,10 @@ export default function DashboardList(){
     const {t}=useTranslation("Dashboard")
     const list=[];
      const icon=["grid","boxes","box","person"]
+     const links=["/dashboard","/groupsm","/prductm","/users"]
     for(let i=1;i<=4;i++){
         list.push(<div className="list-box" key={i}>
-           <button className="list-icon"><i className={`bi bi-${icon[i-1]}`}></i></button>
+           <Link to={links[i-1]} className="list-icon"><i className={`bi bi-${icon[i-1]}`}></i></Link>
            <div className="box"><h5>{t(`list.title${i}`)}</h5>
            <p>{t(`list.des${i}`)}</p></div>
         </div>)
