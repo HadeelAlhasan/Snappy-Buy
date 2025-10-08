@@ -29,8 +29,7 @@ function App() {
           <Route path="/create" element={<CreateAccount />} />
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />
-          <Route path="/products" element={<Products />} />
-
+          <Route path="/products" element={<Products />} /> 
           <Route path="/det" element={<Cart_info />} />
 
           <Route path="/dashboard-list" element={<DashboardList />} />
