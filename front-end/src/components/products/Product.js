@@ -2,16 +2,31 @@ import { useTranslation } from 'react-i18next'
 import img from '../../photo/g-cloths.jpg'
 import './Product.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 export default function Product({show}){
   const {t}=useTranslation("Group")
+  const [del,setDel]=useState(false)
+  const deleteproduct=(e)=>{
+    setDel(true)
+  }
+   const cancel=(e)=>{
+    setDel(false)
+  }
     return(
    
     
    <div className="group" data-aos="fade-up">
+    <div className={`${del?'del':'notdel'}`}>
+      <p>{t("product.del")}</p>
+    <div>
+        <button>{t("product.confirm")}</button>
+      <button onClick={(e)=>{cancel(e)}} >{t("product.cancel")}</button>
+    </div>
+    </div>
      <div className='heart'><i className='bi bi-heart-fill'></i></div>
  <div className={`${show?'edit':'notshow'}`}>
       <Link to={'/edit'}>{t("product.edit")}</Link>
-      <button>{t("product.delete")}</button>
+      <button onClick={(e)=>{deleteproduct(e)}}>{t("product.delete")}</button>
     </div>
    <div className="center">
     

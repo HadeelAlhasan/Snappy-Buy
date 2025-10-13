@@ -42,17 +42,7 @@ function App() {
           <Route path="/products" element={<Products />} />
 
           <Route path="/products" element={<Products />} />
-<<<<<<< Updated upstream
 
-          <Route path="/det" element={<Cart_info />} />
-
-          <Route path="/dashboard-list" element={<DashboardList />} />
-          <Route path="/dashboard-list" element={<DashboardList />} />
-          <Route path="/dashboard" element={<DashBoard />} />
-          <Route path="/groupsm" element={<GroupManager />} />
-          <Route path="/prductm" element={<ProductManager />} />
-          <Route path="/users" element={<Users />} />
-=======
           <Route path="/add" element={<AddProduct/>}/>
           <Route path="/edit" element={<EditProduct/>}/>
           <Route path="/det" element={<Cart_info />} />
@@ -64,7 +54,7 @@ function App() {
           <Route path="/prductm" element={<ProductManager/>}/>
           <Route path="/users" element={<Users/>}/>
 
->>>>>>> Stashed changes
+
         </Routes>
       </div>
     </Router>

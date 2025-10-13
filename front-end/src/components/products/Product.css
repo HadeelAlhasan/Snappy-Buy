@@ -94,3 +94,37 @@ div.star  p{
 div.star i{
     color: #333;
 }
+div.del{
+    position: absolute;
+    width: 40%;
+    height: 38vb;
+    border-radius: 10px;
+    border:#00000098 1px solid;
+    color: aliceblue;
+    margin: auto;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+    z-index: 5;
+}
+div.del div {
+    align-self: flex-end;
+    justify-items: flex-start;
+    bottom: 5px;
+position: absolute;
+}
+div.del div button{
+background-color: #df5c30;
+border: #333 1px solid;
+color: aliceblue;
+border-radius: 10px;
+padding: 1px 20px;
+margin-inline-start: 5px;
+margin-inline-end: 5px;
+}
+div.notdel{
+    display: none;
+}
