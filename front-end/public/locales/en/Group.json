@@ -5,6 +5,28 @@
     "add":"Add to cart ",
     "name":"Group name:",
     "price":"Price:",
-    "des":"Description:"
+    "des":"Description:",
+    "all":"all",
+    "offers":"offers",
+    "best":"Best seller",
+    "edit":"Edit",
+    "delete":"Delete",
+    "img":"Choose a picture"
+   },
+   "edit":{
+    "namear":"Product name in Arabic",
+    "nameen":"Product name in English",
+    "edit":"Edit product",
+    "namegar":"Group name in Arabic",
+    "namegen":"Group name in English",
+    "desar":"Product description in Arabic",
+    "desen":"Product description in English",
+    "dis":"there a discount?",
+    "yes":"Yes",
+    "no":"No"
+   },
+   "add":{
+     "add":"Add product",
+     "create":"Add"
    }
 }

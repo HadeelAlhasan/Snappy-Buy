@@ -2,7 +2,7 @@
 div.heart{
 position: absolute;
 color: #333;
-
+z-index: 3;
 padding: 2px;
 }
 
@@ -22,20 +22,69 @@ div.width-product{
     min-height:260px ;
   
 }
-
-
+div.edit{
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 30px;
+  align-items: center;
+  gap: 5px;
+  padding-inline-end: 30px;
+  width: 20%;
+}
+div.notshow{
+   display: none;  
+}
+div.edit button,div.edit a{
+border: 1px solid #333;
+text-decoration: none;
+background-color: #df5c30;
+border-radius: 10px;
+width: 30%;
+padding: 0px 3px;
+font-size: 14px;
+text-align: center;
+color: aliceblue;
+}
+div.head{
+    width: 90%;
+    margin: 1% auto;
+    align-items: flex-start;
+}
 .old{
     text-decoration: line-through;
     margin-inline-end: 10px;
 }
+div.sort{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    background-color: #333333;
+    border: 1px solid #00000098;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+div.sort-div1,div.sort-div2,div.sort-div3{
+padding: 4px 8px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+div.sort-div1:hover,div.sort-div2:hover,div.sort-div3:hover{
+background-color: #ffffff50; 
+}
+.sort-div{
+    width: 13%;
+}
+
 div.star{
     display: flex;
     justify-content: flex-end;
     height: 23px;
-    /* margin-top: 60px; */
     margin-inline-start:20px ;
      margin-inline-end:20px ;
-    /* padding-top: 0px; */
+  
 }
 
 div.star  p{

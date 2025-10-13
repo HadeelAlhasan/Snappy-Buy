@@ -58,3 +58,66 @@ box-shadow: 10px 7px 1px 1px #ffffff70;
     background-color: #333;
   
 }
+.edit-name{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+.edit-name input,.width-product input,.width-product textarea{
+    outline: none;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    color: #333;
+    margin-inline-start: 5px;
+    padding: 2px 5px;
+}
+.width-product textarea{
+   height: 85px;
+   width: 292px;
+}
+input.number-input{
+     margin-inline-start: 60px;
+}
+.des-area{
+    display: flex;
+    align-items: start;
+}
+div.radio{
+      display: flex;
+    align-items: center; 
+}
+p.discount {
+    display: flex;
+    align-items: center;
+}
+p.discount div{
+     margin-inline-start: 15px;  
+}
+#r2{
+    margin-inline-start: 40px;
+}
+div.radio label{
+    margin-inline-start: 5px;
+    
+}
+.des-area textarea{
+  margin-inline-start: 50px;  
+}
+button.edit-button{
+     background-color: #df5c30;
+    color: aliceblue;
+    padding: 1px;
+    margin-top: 1%;
+    width: 12%;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    border-radius: 10px;
+}
+div.edit-div{
+     display: flex;
+    justify-content: flex-end;
+}

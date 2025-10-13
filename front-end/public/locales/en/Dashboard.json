@@ -8,5 +8,13 @@
         "des3":"Managing products: Add a new product, delete an existing product, and edit a product.",
           "title4":"User Manager",
         "des4":" Managing users: Delete a user, promote a user to admin, or revoke promotion."
+    },
+    "dashboard":{
+      "title0":"Number of vivitors",
+      "title1":"Number of users",
+      "title2":"Number of groups"
+    },
+    "productmanager":{
+      "add":"add product"
     }
 }

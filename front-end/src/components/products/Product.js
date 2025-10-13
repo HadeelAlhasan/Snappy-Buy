@@ -1,15 +1,20 @@
 import { useTranslation } from 'react-i18next'
 import img from '../../photo/g-cloths.jpg'
 import './Product.css'
-export default function Product(){
+import { Link } from 'react-router-dom'
+export default function Product({show}){
   const {t}=useTranslation("Group")
     return(
    
     
    <div className="group" data-aos="fade-up">
      <div className='heart'><i className='bi bi-heart-fill'></i></div>
- 
+ <div className={`${show?'edit':'notshow'}`}>
+      <Link to={'/edit'}>{t("product.edit")}</Link>
+      <button>{t("product.delete")}</button>
+    </div>
    <div className="center">
+    
                   <img src={img} alt="no thing"/>
                   <button type='button' >{t("product.add")} </button>
               </div>
