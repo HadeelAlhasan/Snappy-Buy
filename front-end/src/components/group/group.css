@@ -85,6 +85,10 @@ input.number-input{
     display: flex;
     align-items: start;
 }
+.des-area-en{
+    display: flex;
+    align-items: start;
+}
 div.radio{
       display: flex;
     align-items: center; 
@@ -105,6 +109,9 @@ div.radio label{
 }
 .des-area textarea{
   margin-inline-start: 50px;  
+}
+.des-area-en textarea{
+  margin-inline-start: 14px;  
 }
 button.edit-button{
      background-color: #df5c30;

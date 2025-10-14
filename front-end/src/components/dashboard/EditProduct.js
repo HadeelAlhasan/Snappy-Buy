@@ -41,8 +41,8 @@ export default function EditProduct(){
              
                  <p>{t("product.price")}<input type="number" className='number-input'/></p>
                      <p className='discount'>{t("edit.dis")}<div className='radio'> <input type="radio" id="r1" name='discount'/><label for="r1">{t("edit.yes")}</label><input id="r2" name='discount'  type="radio"/><label for="r2">{t("edit.no")}</label></div></p>
-                 <p className='des-area'>{t("product.des")}<textarea placeholder={t("edit.desar")}/></p>
-                 <p  className='des-area'>{t("product.des")}<textarea placeholder={t("edit.desen")}/></p>
+                 <p className={`${dir==='en'?"des-area-en":"des-area"}`}>{t("product.des")}<textarea placeholder={t("edit.desar")}/></p>
+                 <p  className={`${dir==='en'?"des-area-en":"des-area"}`}>{t("product.des")}<textarea placeholder={t("edit.desen")}/></p>
               </div>
                  <div  className='edit-div'><button className='edit-button'>{t("product.edit")}</button></div>
              </div>

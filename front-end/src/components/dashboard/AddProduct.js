@@ -55,11 +55,11 @@ export default function AddProduct() {
 							<input type="number" className="number-input" />
 						</p>
 						
-						<p className="des-area">
+						<p className={`${dir==='en'?"des-area-en":"des-area"}`}>
 							{t("product.des")}
 							<textarea placeholder={t("edit.desar")} />
 						</p>
-						<p className="des-area">
+						<p className={`${dir==='en'?"des-area-en":"des-area"}`}>
 							{t("product.des")}
 							<textarea placeholder={t("edit.desen")} />
 						</p>

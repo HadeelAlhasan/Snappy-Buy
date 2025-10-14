@@ -128,3 +128,12 @@ margin-inline-end: 5px;
 div.notdel{
     display: none;
 }
+div.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+ 
+    background-color: #33333350;
+    z-index: 2;
+
+}
