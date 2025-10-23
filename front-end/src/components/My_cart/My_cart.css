@@ -4,8 +4,8 @@
   border: 1px solid rgb(94, 94, 94);
   border-radius: 9px;
 }
-.scroll{
-scrollbar: 20px;
+.scroll {
+  scrollbar: 20px;
 }
 .cartTitle {
   font-size: 28px;
@@ -77,9 +77,9 @@ scrollbar: 20px;
   align-items: center;
 }
 .flex_details2 {
-  width: 160px;
+  /* width: 160px; */
 }
-.flex_details button {
+.flex_details2 button {
   border: none;
   border-radius: 4px;
   background-color: red;

@@ -1,35 +1,39 @@
 {
-   "group":{ "show":"show proudects"},
-   "product":{
-    "l":"sp",
-    "add":"Add to cart ",
-    "name":"Group name:",
-    "price":"Price:",
-    "des":"Description:",
-    "all":"all",
-    "offers":"offers",
-    "best":"Best seller",
-    "edit":"Edit",
-    "delete":"Delete",
-    "img":"Choose a picture",
-    "cancel":"Cancel",
-    "confirm":"Confirm",
-    "del":"Do you want to delete this product?"
-   },
-   "edit":{
-    "namear":"Product name in Arabic",
-    "nameen":"Product name in English",
-    "edit":"Edit product",
-    "namegar":"Group name in Arabic",
-    "namegen":"Group name in English",
-    "desar":"Product description in Arabic",
-    "desen":"Product description in English",
-    "dis":"there a discount?",
-    "yes":"Yes",
-    "no":"No"
-   },
-   "add":{
-     "add":"Add product",
-     "create":"Add"
-   }
+  "group": { "show": "show proudects" },
+  "product": {
+    "l": "sp",
+    "add": "Add to cart ",
+    "name": "Group name:",
+    "price": "Price:",
+    "des": "Description:",
+    "all": "all",
+    "offers": "offers",
+    "best": "Best seller",
+    "edit": "Edit",
+    "delete": "Delete",
+    "img": "Choose a picture",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "del": "Do you want to delete this product?"
+  },
+  "edit": {
+    "namear": "Product name in Arabic",
+    "nameen": "Product name in English",
+    "edit": "Edit product",
+    "namegar": "Group name in Arabic",
+    "namegen": "Group name in English",
+    "desar": "Product description in Arabic",
+    "desen": "Product description in English",
+    "dis": "there a discount?",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "grp1": "Group description in Arabic",
+  "grp2": "Group description in English",
+  "add": {
+    "add": "Add product",
+    "create": "Add"
+  },
+  "edit2": " Edit Group"
 }

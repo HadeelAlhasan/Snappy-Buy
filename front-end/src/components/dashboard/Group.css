@@ -1,0 +1,188 @@
+.con_icon_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(150, 64, 64); */
+  width: 96%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+.con_icon_div i {
+  font-size: 25px;
+  color: #df5c30;
+}
+.con_icon_div button {
+  width: 110px;
+  height: 50px;
+  background-color: #df5c30;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}
+.con_group_cart {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 440px;
+  /* background-color: #ac1f1fe0; */
+  /* margin-top: 80px; */
+}
+.container_group {
+  background-color: #969696e0;
+  width: 76%;
+  height: 350px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.con_group_cart i {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20px;
+  position: absolute;
+}
+
+.con_group_cart img {
+  width: 250px;
+  height: 160px;
+  margin: 0px 10px 0px 10px;
+  border-radius: 6px;
+}
+.poop {
+  width: 120px;
+  height: 70px;
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+/* .con_poop {
+  position: relative;
+  height: 100px;
+  width: 190px;
+  
+}
+.con_poop i {
+  margin: 60px 10px 0px 10px;
+} */
+.poop button {
+  width: 75px;
+  height: 30px;
+  margin: 2px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: #df5c30;
+  margin-top: 5px;
+}
+.containerDelete {
+  width: 57%;
+  height: 39vh;
+  background-color: rgb(199 192 192);
+  position: absolute;
+  top: 17%;
+  border-radius: 8px;
+  left: 23%;
+  background-attachment: fixed;
+}
+.childCon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.exit1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 45px;
+  height: 25px;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  color: aliceblue;
+}
+.confirmText {
+  text-align: center;
+  /* color: #333; */
+  font-size: 20px;
+  position: absolute;
+  top: 120px;
+  right: 264px;
+}
+.confirmDel {
+  position: absolute;
+  bottom: 20px;
+  right: 294px;
+  width: 100px;
+  height: 30px;
+  background-color: #df5c30;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+}
+.container_Edit {
+  width: 80%;
+  height: 500px;
+  background-color: rgb(199 192 192);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.container_Edit img {
+  width: 230px;
+  height: 230px;
+  margin-right: -120px;
+  margin-left: -120px;
+  border-radius: 50%;
+}
+.con_input input,
+.con_input textarea {
+  padding-right: 12px;
+  width: 350px;
+  height: 55px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  outline: none;
+}
+.con_fix_direction {
+  position: relative;
+}
+.con_fix_direction button {
+  border: none;
+  border-radius: 6px;
+  background-color: #df5c30;
+  color: aliceblue;
+  position: absolute;
+  top: 253px;
+  width: 110px;
+  right: -60px;
+}
+.con_input {
+  position: relative;
+}
+.creat_Group1 {
+  position: absolute;
+  top: 300px;
+  left: -200px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 14px;
+  background-color: #df5c30;
+  color: aliceblue;
+}
+.con_input .exit1 {
+  top: -128px;
+  left: -271px;
+  height: 40px;
+}
