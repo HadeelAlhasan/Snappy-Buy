@@ -1,48 +1,47 @@
-.footer{
-   background: linear-gradient(to bottom,#b9b979,#f1f1ec);
-    margin-top: 50px;
-    padding-top: 50px;
-    height: 400px;
+.footer {
+	background: linear-gradient(to bottom, #b9b979, #f1f1ec);
+	margin-top: 50px;
+	padding-top: 50px;
+	height: 400px;
 }
-.Contact-Us{
-width: 30%;
-margin: auto;
+.Contact-Us {
+	width: 30%;
+	margin: auto;
 
-text-align: center;
+	text-align: center;
 }
-.Contact-Us p{
-    font-weight: 600;
+.Contact-Us p {
+	font-weight: 600;
 }
-.Contact-Us-link,.list{
-    width: 70%;
-    margin: auto;
-    display: flex;
-  
-    justify-content: space-evenly;
+.Contact-Us-link,
+.list {
+	width: 70%;
+	margin: auto;
+	display: flex;
 
+	justify-content: space-evenly;
 }
-.Contact-Us-link a i{
-    color: #df5c30;
-    font-size: 20px;
-   
+.Contact-Us-link a i {
+	color: #df5c30;
+	font-size: 20px;
 }
-.list{
-    margin-top: 70px;
+.list {
+	margin-top: 70px;
 }
-.list p a{
-    width: 30%;
-    text-align: center;
-        font-weight: 600;
-        text-decoration: none;
-        color: #333;
+.list p a {
+	width: 30%;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	color: #333;
 }
-.rights{
-  width: 30%;
-    text-align: center;  
-    margin: auto;
-    margin-top: 120px;
+.rights {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	margin-top: 120px;
 }
-.rights span{
-    font-weight: bold;
-    color: #df5c30;
+.rights span {
+	font-weight: bold;
+	color: #df5c30;
 }

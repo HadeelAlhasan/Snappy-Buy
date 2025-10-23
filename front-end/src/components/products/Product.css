@@ -1,139 +1,141 @@
-
-div.heart{
-position: absolute;
-color: #333;
-z-index: 3;
-padding: 2px;
+div.heart {
+	position: absolute;
+	color: #333;
+	z-index: 3;
+	padding: 2px;
 }
 
-div.star{
- color: #333;
-padding: 2px;   
+div.star {
+	color: #333;
+	padding: 2px;
 }
-i.bi.bi-heart,i.bi.bi-star{
-    color: #333;
+i.bi.bi-heart,
+i.bi.bi-star {
+	color: #333;
 }
-h2.title-product{
-    text-align: center;
+h2.title-product {
+	text-align: center;
 }
-div.width-product{
-    margin-top: 10px;
-   
-    min-height:260px ;
-  
+div.width-product {
+	margin-top: 10px;
+
+	min-height: 260px;
 }
-div.edit{
-  position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  padding-inline-start: 30px;
-  align-items: center;
-  gap: 5px;
-  padding-inline-end: 30px;
-  width: 20%;
+div.edit {
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	padding-inline-start: 30px;
+	align-items: center;
+	gap: 5px;
+	padding-inline-end: 30px;
+	width: 20%;
 }
-div.notshow{
-   display: none;  
+div.notshow {
+	display: none;
 }
-div.edit button,div.edit a{
-border: 1px solid #333;
-text-decoration: none;
-background-color: #df5c30;
-border-radius: 10px;
-width: 30%;
-padding: 0px 3px;
-font-size: 14px;
-text-align: center;
-color: aliceblue;
+div.edit button,
+div.edit a {
+	border: 1px solid #333;
+	text-decoration: none;
+	background-color: #df5c30;
+	border-radius: 10px;
+	width: 30%;
+	padding: 0px 3px;
+	font-size: 14px;
+	text-align: center;
+	color: aliceblue;
 }
-div.head{
-    width: 90%;
-    margin: 1% auto;
-    align-items: flex-start;
+div.head {
+	width: 90%;
+	margin: 1% auto;
+	align-items: flex-start;
 }
-.old{
-    text-decoration: line-through;
-    margin-inline-end: 10px;
+.old {
+	text-decoration: line-through;
+	margin-inline-end: 10px;
 }
-div.sort{
-    display: flex;
-    color: aliceblue;
-    flex-direction: column;
-    background-color: #333333;
-    border: 1px solid #00000098;
-    padding: 3px 15px;
-    border-radius: 10px;
+div.sort {
+	display: flex;
+	color: aliceblue;
+	flex-direction: column;
+	background-color: #333333;
+	border: 1px solid #00000098;
+	padding: 3px 15px;
+	border-radius: 10px;
 }
-div.sort-div1,div.sort-div2,div.sort-div3{
-padding: 4px 8px;
-border-radius: 5px;
-display: flex;
-align-items: center;
-gap: 5px;
+div.sort-div1,
+div.sort-div2,
+div.sort-div3 {
+	padding: 4px 8px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
-div.sort-div1:hover,div.sort-div2:hover,div.sort-div3:hover{
-background-color: #ffffff50; 
+div.sort-div1:hover,
+div.sort-div2:hover,
+div.sort-div3:hover {
+	background-color: #ffffff50;
 }
-.sort-div{
-    width: 13%;
+.sort-div {
+	width: 13%;
 }
 
-div.star{
-    display: flex;
-    justify-content: flex-end;
-    height: 23px;
-    margin-inline-start:20px ;
-     margin-inline-end:20px ;
-  
+div.star {
+	display: flex;
+	justify-content: flex-end;
+	height: 23px;
+	margin-inline-start: 20px;
+	margin-inline-end: 20px;
 }
 
-div.star  p{
-    margin-inline-start: 5px;
-      color: #333;
+div.star p {
+	margin-inline-start: 5px;
+	color: #333;
 }
-div.star i{
-    color: #333;
+div.star i {
+	color: #333;
 }
-div.del{
-    position: absolute;
-    width: 40%;
-    height: 38vb;
-    border-radius: 10px;
-    border:#00000098 1px solid;
-    color: aliceblue;
-    margin: auto;
-    top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #333;
-    z-index: 5;
+div.del {
+	position: absolute;
+	width: 40%;
+	height: 38vb;
+	border-radius: 10px;
+	border: #00000098 1px solid;
+	color: aliceblue;
+	margin: auto;
+	top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #333;
+	z-index: 5;
 }
 div.del div {
-    align-self: flex-end;
-    justify-items: flex-start;
-    bottom: 5px;
-position: absolute;
+	align-self: flex-end;
+	justify-items: flex-start;
+	bottom: 5px;
+	position: absolute;
 }
-div.del div button{
-background-color: #df5c30;
-border: #333 1px solid;
-color: aliceblue;
-border-radius: 10px;
-padding: 1px 20px;
-margin-inline-start: 5px;
-margin-inline-end: 5px;
+div.del div button {
+	background-color: #df5c30;
+	border: #333 1px solid;
+	color: aliceblue;
+	border-radius: 10px;
+	padding: 1px 20px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
 }
-div.notdel{
-    display: none;
+div.notdel {
+	display: none;
 }
-div.overlay{
-    position:absolute;
-    top: 0;
-    left: 0;
- 
-    background-color: #33333350;
-    z-index: 2;
+div.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
 
+	background-color: #33333350;
+	z-index: 2;
 }

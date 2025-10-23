@@ -1,130 +1,131 @@
-.group{
-    background-color: #f8f8b6;
-  border-radius: 20px;
-    margin: 1% auto;
-    display: flex;
-    width: 90%;
-    padding: 1%;
-    
-    justify-content: space-between;
-}
- .revese div{
-    flex-direction: row-reverse;
+.group {
+	background-color: #f8f8b6;
+	border-radius: 20px;
+	margin: 1% auto;
+	display: flex;
+	width: 90%;
+	padding: 1%;
 
+	justify-content: space-between;
 }
-.group .width,.group .center{
-    width: 50%;
+.revese div {
+	flex-direction: row-reverse;
 }
-.group .center,.group .width{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.group .width,
+.group .center {
+	width: 50%;
 }
-.group .center button{
-    background-color: #df5c30;
-    color: aliceblue;
-    padding: 1px;
-    margin-top: 1%;
-    width: 30%;
-    border: 1px solid #333;
-    outline: none;
-    border-radius: 10px;
+.group .center,
+.group .width {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.group .center button {
+	background-color: #df5c30;
+	color: aliceblue;
+	padding: 1px;
+	margin-top: 1%;
+	width: 30%;
+	border: 1px solid #333;
+	outline: none;
+	border-radius: 10px;
 }
 .group .center button:hover {
 	font-weight: 800;
 	transition: font-weight 0.5s ease;
 }
-.group img{
-border-radius: 10px;
-  width: 50%;
-  height: 60%;
-border: solid 1px #fff;
-box-shadow: 10px 7px 1px 1px #ffffff70;
+.group img {
+	border-radius: 10px;
+	width: 50%;
+	height: 60%;
+	border: solid 1px #fff;
+	box-shadow: 10px 7px 1px 1px #ffffff70;
 }
-.group .width h2{
-    font-weight: bold;
-    color: #333;
-    text-align: center;
+.group .width h2 {
+	font-weight: bold;
+	color: #333;
+	text-align: center;
 }
-.group .width p{
-   color: #333; 
+.group .width p {
+	color: #333;
 }
-.groups .hr{
-    width: 94%;
-    height: 1px;
+.groups .hr {
+	width: 94%;
+	height: 1px;
 
-    margin: auto;
-    background-color: #333;
-  
+	margin: auto;
+	background-color: #333;
 }
-.edit-name{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-    gap: 5px;
-    margin-bottom: 50px;
+.edit-name {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	gap: 5px;
+	margin-bottom: 50px;
 }
-.edit-name input,.width-product input,.width-product textarea{
-    outline: none;
-    border: #333 solid 1px;
-    border-radius: 5px;
-    color: #333;
-    margin-inline-start: 5px;
-    padding: 2px 5px;
+.edit-name input,
+.width-product input,
+.width-product textarea {
+	outline: none;
+	border: #333 solid 1px;
+	border-radius: 5px;
+	color: #333;
+	margin-inline-start: 5px;
+	padding: 2px 5px;
 }
-.width-product textarea{
-   height: 85px;
-   width: 292px;
+.width-product textarea {
+	height: 85px;
+	width: 292px;
 }
-input.number-input{
-     margin-inline-start: 60px;
+input.number-input {
+	margin-inline-start: 60px;
 }
-.des-area{
-    display: flex;
-    align-items: start;
+.des-area {
+	display: flex;
+	align-items: start;
 }
-.des-area-en{
-    display: flex;
-    align-items: start;
+.des-area-en {
+	display: flex;
+	align-items: start;
 }
-div.radio{
-      display: flex;
-    align-items: center; 
+div.radio {
+	display: flex;
+	align-items: center;
 }
 p.discount {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
-p.discount div{
-     margin-inline-start: 15px;  
+p.discount div {
+	margin-inline-start: 15px;
 }
-#r2{
-    margin-inline-start: 40px;
+#r2 {
+	margin-inline-start: 40px;
 }
-div.radio label{
-    margin-inline-start: 5px;
-    
+div.radio label {
+	margin-inline-start: 5px;
 }
-.des-area textarea{
-  margin-inline-start: 50px;  
+.des-area textarea {
+	margin-inline-start: 50px;
 }
-.des-area-en textarea{
-  margin-inline-start: 14px;  
+.des-area-en textarea {
+	margin-inline-start: 14px;
 }
-button.edit-button{
-     background-color: #df5c30;
-    color: aliceblue;
-    padding: 1px;
-    margin-top: 1%;
-    width: 12%;
-    height: 30px;
-    border: 1px solid #333;
-    outline: none;
-    border-radius: 10px;
+button.edit-button {
+	background-color: #df5c30;
+	color: aliceblue;
+	padding: 1px;
+	margin-top: 1%;
+	width: 12%;
+	height: 30px;
+	border: 1px solid #333;
+	outline: none;
+	border-radius: 10px;
 }
-div.edit-div{
-     display: flex;
-    justify-content: flex-end;
+div.edit-div {
+	display: flex;
+	justify-content: flex-end;
 }
