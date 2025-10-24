@@ -39,55 +39,28 @@ function App() {
           <Route path="/create" element={<CreateAccount />} />
           <Route path="/group" element={<Groups />} />
           <Route path="/card" element={<My_cart />} />
-          const {t} = useTranslation(); sessionStorage.setItem("sort",
-          t("sort")); return (
-          <Router>
-            <ScrollToTop />
-            <div className="App">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Privacy" element={<Privacy />} />
-                <Route path="/Terms" element={<Terms />} />
-                <Route path="/Questions" element={<Questions />} />
-                {/* <Route path="/login" element={<LogIn />} /> */}
-                <Route path="/login" element={<Profile />} />
-                <Route path="/create" element={<CreateAccount />} />
-                <Route path="/group" element={<Groups />} />
-                <Route path="/card" element={<My_cart />} />
 
-                <Route path="/products" element={<Products />} />
+          <Route path="/products" element={<Products />} />
 
-                <Route path="/products" element={<Products />} />
+          <Route path="/products" element={<Products />} />
 
-                <Route path="/add" element={<AddProduct />} />
-                <Route path="/edit" element={<EditProduct />} />
-                <Route path="/det" element={<Cart_info />} />
-
-                <Route path="/dashboard-list" element={<DashboardList />} />
-                <Route path="/dashboard" element={<DashBoard />} />
-                <Route path="/groupsm" element={<GroupManager />} />
-                <Route path="/prductm" element={<ProductManager />} />
-                <Route path="/users" element={<Users />} />
-
-                <Route path="/dashboard-list" element={<DashboardList />} />
-                <Route path="/dashboard-list" element={<DashboardList />} />
-                <Route path="/dashboard" element={<DashBoard />} />
-                <Route path="/groupsm" element={<GroupManager />} />
-                <Route path="/prductm" element={<ProductManager />} />
-                <Route path="/users" element={<Users />} />
-                <Route path="/editPage" element={<EditPage />} />
-              </Routes>
-            </div>
-          </Router>
-          );
           <Route path="/add" element={<AddProduct />} />
           <Route path="/edit" element={<EditProduct />} />
           <Route path="/det" element={<Cart_info />} />
+
           <Route path="/dashboard-list" element={<DashboardList />} />
           <Route path="/dashboard" element={<DashBoard />} />
           <Route path="/groupsm" element={<GroupManager />} />
           <Route path="/prductm" element={<ProductManager />} />
           <Route path="/users" element={<Users />} />
+
+          <Route path="/dashboard-list" element={<DashboardList />} />
+          <Route path="/dashboard-list" element={<DashboardList />} />
+          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/groupsm" element={<GroupManager />} />
+          <Route path="/prductm" element={<ProductManager />} />
+          <Route path="/users" element={<Users />} />
+          <Route path="/editPage" element={<EditPage />} />
         </Routes>
       </div>
     </Router>
