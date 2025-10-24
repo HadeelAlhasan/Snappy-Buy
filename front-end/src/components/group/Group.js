@@ -56,6 +56,7 @@ export default function Group({ showptn }) {
             احتياجاكنالمقاساتن
           </p>
         </div>
+
         {ShowDelet && (
           <div className="containerDelete">
             <div className="childCon">

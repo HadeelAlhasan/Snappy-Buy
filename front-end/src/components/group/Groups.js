@@ -24,7 +24,7 @@ export default function Groups({ showptn }) {
   for (let i = 0; i < 5; i++) {
     group.push(
       <div key={i} className={`${i % 2 != 0 ? "revese" : ""}`}>
-        <Group />
+        <Group showptn={showptn} />
         <div data-aos="fade-up" className="hr"></div>
       </div>
     );
